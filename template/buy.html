@@ -13,7 +13,7 @@
 <body>
     <div class = "work-block">
     <header class = "header-inside">
-        <p class = "header-title">ПРОФИЛЬ</p>
+        <p class = "header-title">ПРОДАНО</p>
         <p class = "header-dis">создайти своей профиль - начните совой путь дизайнера</p>
     </header>
     <section class="profile">
@@ -22,13 +22,13 @@
                 <a href = "profile.html" class = "link"> <p class="menu-el-p">Личные данные</p></a>
             </div>
             <div class="menu-el">
-                <a href = "work.html" class = "link"><p class="menu-el-p" style="color: rgb(73, 73, 73);">Мои работы</p></a>
+                <a href = "work.html" class = "link"><p class="menu-el-p">Мои работы</p></a>
             </div>
             <div class="menu-el">
                 <a href = "auc.html" class = "link"><p class="menu-el-p">Аукцион</p></a>
             </div>  
             <div class="menu-el">
-                <a href = "buy.html" class = "link"> <p class="menu-el-p">Продано</p></a>
+                <a href = "buy.html" class = "link"> <p class="menu-el-p" style="color: rgb(73, 73, 73);">Продано</p></a>
             </div>
             <div class="menu-el">
                 <a href = "mybuy.html" class = "link"><p class="menu-el-p">Покупки</p></a>
@@ -63,10 +63,12 @@
     <a href = "create-work-one.html" class = "link create-link"><p>Создать работу</p></a>
     <div class = "card-work">
         <img  src ="../img/darkmain.png"/>
-        <div class = "card-work-option">
+        
+             <div class = "card-work-option">
             <div class = "card-work-dis">
                 <p class = "card-work-dis-text">Sed ut perspiciatis unde omnis iste</p>
                 <a href = "work-page.html" class = "link"><p class = "card-work-dis-title">Sed ut perspiciatis unde omnis iste natus</p></a>
+
             </div>
             <div class = "card-work-com">
                <div class = "card-work-com-el">
@@ -90,7 +92,36 @@
                </div>
             </div>
         </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Пользователь</th>
+                    <th>Ставка</th>
+                    <th>Комментарий</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="work.html" class="link">
+                            <p>Далее</p>
+                        </a>
+                    </td>
+                    <td>12323</td>
+                    <td>67439</td>
+                    <td>
+                        <div class="table-link">
+                            <a href="work.html" class="link"><img src="../img/yes.svg" /></a>
+                            <a href="log.html" class="link"><img src="../img/no.svg" /></a>
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
     </div>
+
 </div>
 
 </body>
